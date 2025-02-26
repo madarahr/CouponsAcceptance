@@ -14,7 +14,7 @@ This project aims to contextualize a scenario that a driver is driving through t
 - Annual Income
 - Number of times the driver visits a bar within a month
 - Number of times the driver buys takeaway food
-- NUmber of times the driver goes to a coffee shop
+- Number of times the driver goes to a coffee shop
 - Number of times the driver eats at a cheap restaurant
 - Number of times the driver eats in an average restaurant
 - Driving destination
@@ -33,8 +33,12 @@ Data was examined for NaN values and replaced with 0 where it made sense.  Dataf
 
 ## Load
 Histogram Bar Plots were made using Seaborn for the coupons issued for various places.  Additional bar plot was made with Matplotlib to disect the data between accepted coupons and unaccepted coupons.
+![image](https://github.com/user-attachments/assets/7caac3ae-6fba-471d-8161-aca6ae35c7df)
+
 Histogram of the tepmerature was also made with Seaborn.  Additional bar plot was made with Matplotlib to disect the temperature data with weather.
 The images of the bar plots were saved in the images folder.
+![image](https://github.com/user-attachments/assets/72ca5b2b-e75e-4c77-b76a-6f092c06100b)
+
 
 ## Analysis
 Exploratory analysis was made to compare criteria of who would accept bar coupons and simimarly for take away coupons.
