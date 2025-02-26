@@ -1,5 +1,8 @@
 # CouponsAcceptance
 
+## Tools
+Python
+
 ## Overview
 This project aims to contextualize a scenario that a driver is driving through town and a coupon is delivered to their cell phone.  The coupons are issued for a bar, coffee house, restaurants that cost less than $20, retaurants costing $20-$50, and carry away.  Based on the followin attributes analysis is to be made on which of the categories accept the coupon.
 - Gender
@@ -21,3 +24,17 @@ This project aims to contextualize a scenario that a driver is driving through t
 - Time
 - Passenger
 - Time before coupon expires
+
+## Extracting
+Data is in the form of a .csv file and is located in the 'data' folder.  This data was extracted as a dataframe.
+
+## Transform
+Data was examined for NaN values and replaced with 0 where it made sense.  Dataframe was simplified further by removing the 'Car' column as it was irrelevant to this analysis.
+
+## Load
+Histogram Bar Plots were made using Seaborn for the coupons issued for various places.  Additional bar plot was made with Matplotlib to disect the data between accepted coupons and unaccepted coupons.
+Histogram of the tepmerature was also made with Seaborn.  Additional bar plot was made with Matplotlib to disect the temperature data with weather.
+The images of the bar plots were saved in the images folder.
+
+## Analysis
+Exploratory analysis was made to compare criteria of who would accept bar coupons and simimarly for take away coupons.
